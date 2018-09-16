@@ -1,8 +1,6 @@
-INSERT INTO burgers (burger_name, devoured) VALUES ("Cheeseburger Animal Style", true);
-INSERT INTO burgers (burger_name) VALUES ("Mindy Burger");
-INSERT INTO burgers (burger_name) VALUES ("Ramen Burger");
-INSERT INTO burgers (burger_name, devoured) VALUES ("Chicken", true);
-INSERT INTO burgers (burger_name, devoured) VALUES ("Incredible", true);
-INSERT INTO burgers (burger_name) VALUES ("Fish");
-
-
+INSERT INTO burgers (name) VALUES ("Cheeseburger Animal Style");
+INSERT INTO burgers (name) VALUES ("Mindy Burger");
+INSERT INTO burgers (name) VALUES ("Ramen Burger");
+INSERT INTO burgers (name) VALUES ("Chicken");
+INSERT INTO burgers (name) VALUES ("Incredible");
+INSERT INTO burgers (name) VALUES ("Fish");

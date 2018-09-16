@@ -1,39 +1,43 @@
 li {
-    padding: 7px;
-    margin: 7px;
-    background: #F9F9F9;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 7px;
-    margin: 7px;
-    background: #F9F9F9;
-  }
-  
-  .form-group {
-    margin-bottom: 7px;
-  }
-  
-  
-  * {
-      box-sizing: border-box;
-  }
-  
-  body {
-      position: relative;
-      font-size: 55px;
-  }
-  
-  body:after {
-      content : "";
-      display: block;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: -1;
-  }
+  padding: 7px;
+  margin: 7px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 7px;
+  margin: 7px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 7px;
+}
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-size: 45px;
+}
+
+body:after {
+	content : "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url("/public/assets/burgerfries.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+	width: 100%;
+	opacity : 0.2;
+}
